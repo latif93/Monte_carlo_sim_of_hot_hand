@@ -78,7 +78,6 @@ for i, prob in enumerate(probs_of_samples):
 	print(f"{i+1}:{int(prob*100)*'■'} {prob} ")
 print(probs_of_samples)
 print(f"min: {min_val} q1: {q1} median: {median} q3: {q3} max: {max_val} mean: {mu} variance: {variance} standard_deviation: {sigma} IQR: {iqr} range: {range_x}")
-print(f"number of zeroes idk why: {probs_of_samples.count(0.0)}")
 
 #-----------------------------------------------------------------------------------------
 
